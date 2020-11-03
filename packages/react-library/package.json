@@ -1,0 +1,25 @@
+{
+	"name": "@nrcs/react-library",
+	"description": "",
+	"version": "1.0.0",
+	"license": "UNLICENSED",
+	"scripts": {
+		"clean": "(if exist dist rmdir /q /s dist)",
+		"build": "node scripts/build.js"
+	},
+	"dependencies": {
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	},
+	"__devDependencies__": {
+		"@types/reactstrap": "^8.4.1"
+	},
+	"browserslist": {
+		"production": [
+			"ie 11"
+		],
+		"development": [
+			"ie 11"
+		]
+	}
+}
